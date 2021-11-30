@@ -42,8 +42,8 @@ Check
 >        - Adobe Photoshop 사용
 >        - Main Color : 007eff, ffea00, ff001e
 >    - 11월 6일 : XML 구현 완료
->    - 11월 15일 : MySQL 코드 작성 완료
->    - 11월 15일 : Bulid Error MYSQL DatabaseHelper 지원 종료 확인.
+>    - 11월 15일 : MySQL 사용 방법 공부
+>    - 11월 15일 : MYSQL DatabaseHelper 지원 종료 확인.
 >    - 11월 19일 : SQLite 사용, DATABASE 구현 코드 작성 완료 (Bulid 성공)
 >    - 11월 25일 : CR 코드 작성 완료 (Java class name 오타로 인한 ERROR : 해결 완료)
 >    - 11월 28일 : CR구현 완료 (Bulid 성공 / Run 성공 / 'app name' keeps stopping ERROR)
