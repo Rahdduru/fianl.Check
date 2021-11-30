@@ -8,8 +8,20 @@ Check
 > 1) 프로젝트 주제
 >    * 회의 일정 관리 앱
 
+> 2) 프로젝트 구성 파일
+>     * MainActivity.java
+>         - addCrud(CRUD 추가 버튼)
+>         - viewCrud(작성한 일정 확인)
+>     * crud.java
+>         - insertCrud : DATABASE와 연동하여 데이터 입력
+>     * activity_main.xml
+>         - 메인 화면
+>         - 캘린더뷰 사용
+>     * crud.xml
+>         - 일정 작성 화면
 
-> 2) 개발 타임라인
+
+> 3) 개발 타임라인
 >    <br>
 >
 >
@@ -25,7 +37,7 @@ Check
 >        - 11월 27일 ~ : 오류 수정
 
 
-> 3) 개발 현황
+> 4) 개발 현황
 >    - 11월 5일 : UI/UX 디자인
 >        - Adobe Photoshop 사용
 >        - Main Color : 007eff, ffea00, ff001e
@@ -47,6 +59,6 @@ Check
 >    - 12월 1일 : 최종본(미완성) git commit
 >
 
-> 4) 현재 목표
+> 5) 2021-12-01 기준 달성 목표
 >     - gradle 파일 정리
 >     - 2월까지 
