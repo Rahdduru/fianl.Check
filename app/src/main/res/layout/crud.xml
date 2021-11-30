@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crud_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/crud_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="22dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="일정 내용을 자유롭게 입력해주세요"
+            app:layout_constraintBottom_toTopOf="@+id/crud_submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crud_time" />
+
+        <EditText
+            android:id="@+id/crud_place"
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="17dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="일정 장소를 입력해주세요"
+            android:textColor="#ffea00"
+            app:layout_constraintBottom_toTopOf="@+id/crud_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crud_title" />
+
+        <EditText
+            android:id="@+id/crud_title"
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="21dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="일정 제목을 입력해주세요"
+            android:textColor="#ff001e"
+            app:layout_constraintBottom_toTopOf="@+id/crud_place"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/crud_submit"
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="20dp"
+            android:text="작성완료"
+            app:iconTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crud_content" />
+
+        <EditText
+            android:id="@+id/crud_time"
+            android:layout_width="390dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="time"
+            android:text="일정 시간을 입력해주세요"
+            android:textColor="#007eff"
+            app:layout_constraintBottom_toTopOf="@+id/crud_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/crud_place" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="21dp"
+            app:layout_constraintBottom_toTopOf="@+id/crud_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_x_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
